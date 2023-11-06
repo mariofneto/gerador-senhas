@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
@@ -91,7 +90,6 @@ public class Senha {
                 if (peloMenos1Especial(sb) == false) {
                     sb.append(especiais[numeroRandom]);
                 }
-                sb.append(random.nextInt(9));
             } else {
                 sb.append(maiusculasMinusculasNumerosEspecial.get(posicao));
             }
